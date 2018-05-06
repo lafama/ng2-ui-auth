@@ -1,6 +1,6 @@
 import { deepMerge, getWindowOrigin } from './utils';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { ConfigService, IPopupOptions, IOauth2Options, IOauth1Options } from './config.service';
 import { switchMap, take, map, takeWhile, delay } from 'rxjs/operators';
 import { interval } from 'rxjs/observable/interval';

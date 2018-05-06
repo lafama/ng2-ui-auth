@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { SharedService } from './shared.service';
 import { LocalService } from './local.service';
 import { OauthService } from './oauth.service';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { StorageType } from './storage-type.enum';
 
 /**

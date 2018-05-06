@@ -3,7 +3,7 @@ import { ConfigService } from './config.service';
 import { SharedService } from './shared.service';
 import { Injectable, Injector } from '@angular/core';
 import { HttpEvent, HttpInterceptor, HttpHandler, HttpRequest, HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
 
 @Injectable()

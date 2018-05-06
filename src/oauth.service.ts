@@ -7,7 +7,7 @@ import { Oauth2Service } from './oauth2.service';
 import { SharedService } from './shared.service';
 import { joinUrl } from './utils';
 import { ConfigService, IOauth1Options } from './config.service';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import { HttpClient, HttpRequest } from '@angular/common/http';
 
